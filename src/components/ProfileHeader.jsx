@@ -47,33 +47,44 @@ const ProfileHeader = ({ profile }) => {
               </div>
             </div>
 
-            {/* Stats */}
-            <div className="flex justify-center md:justify-start space-x-8 mb-6">
-              <div className="text-center">
-                <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.posts}</div>
-                <div className="text-sm text-gray-600">posts</div>
-              </div>
-              <div className="text-center">
-                <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.followers}</div>
-                <div className="text-sm text-gray-600">followers</div>
-              </div>
-              <div className="text-center">
-                <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.following}</div>
-                <div className="text-sm text-gray-600">following</div>
-              </div>
-            </div>
+          {/* Stats (Designs / Websites / Apps) */}
+<div className="flex justify-center md:justify-start space-x-8 mb-6">
+  <div className="text-center">
+    <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.designs}</div>
+    <div className="text-sm text-gray-600">DESIGNS</div>
+  </div>
+  <div className="text-center">
+    <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.websites}</div>
+    <div className="text-sm text-gray-600">WEBSITE</div>
+  </div>
+  <div className="text-center">
+    <div className="text-xl md:text-2xl font-bold text-gray-800">{profile.apps}</div>
+    <div className="text-sm text-gray-600">APPS</div>
+  </div>
+</div>
 
-            {/* Bio */}
-            <div className="space-y-2">
-              <h2 className="font-semibold text-gray-800">{profile.displayName}</h2>
-              <p className="text-gray-700 leading-relaxed">{profile.bio}</p>
-              <a href={profile.website} className="text-blue-600 hover:text-blue-500 transition-colors">
-                {profile.website}
-              </a>
-            </div>
-          </div>
-        </div>
+{/* Bio / Achievements */}
+<div className="space-y-2">
+  <h2 className="font-semibold text-gray-800">{profile.displayName}</h2>
+  <p className="text-gray-700 leading-relaxed">{profile.bio}</p>
 
+  <div className="mt-4">
+    <h3 className="font-bold text-gray-800">ACHIEVEMENTS & CREDENTIALS</h3>
+    <p className="text-gray-700 leading-relaxed">{profile.achievements}</p>
+  </div>
+
+  {/* Footer icons (Institute + Online) */}
+  <div className="flex justify-center md:justify-start space-x-12 mt-6">
+    <div className="flex flex-col items-center text-gray-700">
+      <span className="text-2xl">🎓</span>
+      <p className="text-sm">{profile.institute}</p>
+    </div>
+    <div className="flex flex-col items-center text-gray-700">
+      <span className="text-2xl">🏅</span>
+      <p className="text-sm">{profile.online}</p>
+    </div>
+  </div>
+</div>
         {/* Navigation tabs */}
         <div className="flex justify-center space-x-12 mt-8 pt-6 border-t border-white/20">
           <button className="flex items-center space-x-2 text-gray-800 border-t-2 border-gray-800 pt-4 -mt-4">
