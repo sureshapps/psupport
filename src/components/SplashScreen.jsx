@@ -26,14 +26,17 @@ const SplashScreen = ({ onComplete }) => {
           
           {/* App name */}
           <h1 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
-            InstagramLike
+            Achievements & Credentials
           </h1>
+          <p className="text-xl font-bold bg-gradient-to-r from-gray-pink to-red-600 bg-clip-text text-transparent">
+Suresh Kaleyannan
+          </p>
           
           {/* Loading animation */}
           <div className="flex space-x-2">
-            <div className="w-2 h-2 bg-gray-400/60 rounded-full animate-bounce"></div>
-            <div className="w-2 h-2 bg-gray-400/60 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-            <div className="w-2 h-2 bg-gray-400/60 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
+            <div className="w-2 h-2 bg-lime-400/60 rounded-full animate-bounce"></div>
+            <div className="w-2 h-2 bg-lime-400/60 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
+            <div className="w-2 h-2 bg-lime-400/60 rounded-full animate-bounce" style={{ animationDelay: '0.5s' }}></div>
           </div>
         </div>
         
