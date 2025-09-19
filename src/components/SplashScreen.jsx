@@ -7,7 +7,7 @@ const SplashScreen = ({ onComplete }) => {
     const timer = setTimeout(() => {
       setIsVisible(false);
       setTimeout(() => onComplete(), 500); // Wait for fade out animation
-    }, 2000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, [onComplete]);
@@ -28,7 +28,7 @@ const SplashScreen = ({ onComplete }) => {
           <h1 className="text-xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
             Achievements & Credentials
           </h1>
-          <p className="text-xl font-bold bg-gradient-to-r from-gray-500 to-gray-600 bg-clip-text text-transparent">
+          <p className="text-1xl font-bold bg-gradient-to-r from-gray-500 to-gray-600 bg-clip-text text-transparent">
 Suresh Kaleyannan
           </p>
           
