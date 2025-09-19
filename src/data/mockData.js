@@ -1,10 +1,9 @@
 // Mock data for Instagram-like profile
 export const mockProfile = {
-  username: "glassy_profile",
-  displayName: "Glassy Profile ✨",
-  bio: "Creating beautiful glass-morphism designs 🎨\nLiving life in high definition\n✨ Design • Code • Create",
-  website: "https://glassyprofile.com",
-  avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23f1f5f9;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23e2e8f0;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='160' height='160' fill='url(%23grad)'/%3E%3Ccircle cx='80' cy='60' r='25' fill='%2394a3b8'/%3E%3Cpath d='M40 120 Q80 100 120 120 L120 160 L40 160 Z' fill='%2394a3b8'/%3E%3C/svg%3E",
+  username: "Suresh Kaleyannan",
+  displayName: "Achievements & Credentials",
+  bio: "“Explore my professional achievements and certifications, showcasing my dedication to continuous learning and skill development. This page highlights my qualifications across various fields, providing verified credentials that reflect my expertise and commitment to growth",
+  website: "https://suresh.app  avatar: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23f1f5f9;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23e2e8f0;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='160' height='160' fill='url(%23grad)'/%3E%3Ccircle cx='80' cy='60' r='25' fill='%2394a3b8'/%3E%3Cpath d='M40 120 Q80 100 120 120 L120 160 L40 160 Z' fill='%2394a3b8'/%3E%3C/svg%3E",
   posts: 24,
   followers: "2.5k",
   following: 489
