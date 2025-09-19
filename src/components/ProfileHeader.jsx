@@ -71,27 +71,16 @@ const ProfileHeader = ({ profile }) => {
                 <p className="text-gray-700 leading-relaxed">{profile.achievements}</p>
               </div>
 
-              {/* Footer icons */}
-              <div className="flex justify-center md:justify-start space-x-12 mt-6">
-                <div className="flex flex-col items-center text-gray-700">
-                  <span className="text-2xl">🎓</span>
-                  <p className="text-sm">{profile.institute}</p>
-                </div>
-                <div className="flex flex-col items-center text-gray-700">
-                  <span className="text-2xl">🏅</span>
-                  <p className="text-sm">{profile.online}</p>
-                </div>
-              </div>
             </div>
 
             {/* Navigation tabs */}
             <div className="flex justify-center space-x-12 mt-8 pt-6 border-t border-white/20">
               <button className="flex items-center space-x-2 text-gray-800 border-t-2 border-gray-800 pt-4 -mt-4">
-                <Grid3X3 className="w-4 h-4" />
+                       <span className="text-2xl">🎓</span>
                 <span className="text-sm font-medium uppercase tracking-wide">Posts</span>
               </button>
               <button className="flex items-center space-x-2 text-gray-500 hover:text-gray-700 transition-colors pt-4 -mt-4">
-                <Bookmark className="w-4 h-4" />
+                             <span className="text-2xl">🏅</span>
                 <span className="text-sm font-medium uppercase tracking-wide">Saved</span>
               </button>
             </div>
