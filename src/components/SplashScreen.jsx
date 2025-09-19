@@ -25,10 +25,10 @@ const SplashScreen = ({ onComplete }) => {
           </div>
           
           {/* App name */}
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
+          <h1 className="text-xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
             Achievements & Credentials
           </h1>
-          <p className="text-xl font-bold bg-gradient-to-r from-gray-pink to-red-600 bg-clip-text text-transparent">
+          <p className="text-xl font-bold bg-gradient-to-r from-gray-500 to-gray-600 bg-clip-text text-transparent">
 Suresh Kaleyannan
           </p>
           
