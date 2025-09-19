@@ -84,7 +84,7 @@ const ProfileHeader = ({ profile }) => {
       <p className="text-sm">{profile.online}</p>
     </div>
   </div>
-</div>
+
         {/* Navigation tabs */}
         <div className="flex justify-center space-x-12 mt-8 pt-6 border-t border-white/20">
           <button className="flex items-center space-x-2 text-gray-800 border-t-2 border-gray-800 pt-4 -mt-4">
